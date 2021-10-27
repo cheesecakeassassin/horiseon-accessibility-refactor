@@ -1,13 +1,16 @@
+/* Applies style to entire html file */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Sets the background color for the whole page to #d9dcd6 */
 body {
   background-color: #d9dcd6;
 }
 
+/* Applies style to all of header, replaced the previous header class */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ header {
   color: #ffffff;
 }
 
+/* Applies style to the h1 element of the header */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Sets the font color of the seo class within the h1 element of the header */
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Applies style to the div within the header */
 header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +39,29 @@ header div {
   font-size: 20px;
 }
 
+/* Sets the list-style-type to non of the unordered list elements within the div of the header */
 header div ul {
   list-style-type: none;
 }
 
+/* Applies style to the list elements within the unordered list within the div of the header */
 header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Applies style to all 'a' elements */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Applies style to all 'p' elements */
 p {
   font-size: 16px;
 }
 
+/* Defines what goes into the hero section */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +71,26 @@ p {
   background-position: center;
 }
 
+/* Functional class that works for the purpose of floating an element to the left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Functional class that works for the purpose of floating an element to the right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Applies style to the content section */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Applies style to the benefits section */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,22 +102,26 @@ p {
   background-color: #2589bd;
 }
 
+/* Class made to consolidate previous redundant classes, applies style to the benefit articles */
 .benefit-display {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Applies style to the h3 elements of the benefit articles */
 .benefit-display h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Applies style to the images in the benefit articles */
 .benefit-display img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Class made to consolidade previous redundant classes, applies style to the content articles */
 .content-display {
   margin-bottom: 20px;
   padding: 50px;
@@ -112,15 +131,18 @@ p {
   color: #ffffff;
 }
 
+/* Applies style to the images in the content articles */
 .content-display img {
   max-height: 200px;
 }
 
+/* Applies style to h2 elements in the content articles */
 .content-display h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Applies style to the footer, replaced previous footer class */
 footer {
   padding: 30px;
   clear: both;
@@ -129,6 +151,7 @@ footer {
   text-align: center;
 }
 
+/* Applies style to h2 element of the footer */
 footer h2 {
   font-size: 20px;
 }
