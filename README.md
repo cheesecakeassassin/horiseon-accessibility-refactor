@@ -7,6 +7,9 @@ A website that offers search engine opttimization, online reputation management,
 * HTML
 * CSS
 
+## Screenshot
+![horiseon screenshot](https://github.com/cheesecakeassassin/horiseon-accessibility-refactor/blob/main/assets/images/horiseon-screenshot.png)
+
 ## Website
 https://cheesecakeassassin.github.io/horiseon-accessibility-refactor/
 
